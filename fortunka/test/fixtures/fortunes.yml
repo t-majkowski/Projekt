@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+=======
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+>>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 
 one:
   quotation: MyText
