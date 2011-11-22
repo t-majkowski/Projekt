@@ -1,0 +1,21 @@
+<%= stylesheet_link_tag    "style_fortunka" %>
+<% @fortunes.each do |fortune| %>
+<table>
+  <tr>
+    <th>Quotation</th>
+    <th>Source</th>
+	<th></th>
+<th></th>
+<th></th>
+  </tr>
+  <tr>
+    <td id="cytat"><%= fortune.quotation %></td> 
+    <td id="zrodlo"><%= fortune.source %></td>
+	<td><%= link_to 'Show', fortune %></td>
+	<td><%= link_to 'Back', edit_fortune_path(fortune) %></td>
+	<td><%= link_to 'Delete', fortune, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+</table>	
+<br/>
+<% end %>
+<h3><%= link_to 'New Fortune', new_fortune_path %></h3>

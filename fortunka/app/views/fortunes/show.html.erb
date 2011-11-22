@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Quotation:</b>
+  <%= @fortune.quotation %>
+</p>
+
+<p>
+  <b>Source:</b>
+  <%= @fortune.source %>
+</p>
+<%= link_to 'Edit', edit_fortune_path(@fortune) %> |
+<%= link_to 'Back', fortunes_path %>
+
+<div>
+<% if @fortune.comments.any? %>
+  <h3>Comments</h3>
+  <%= render :partial => 'comments/comment', :collection => @fortune.comments %>
+<% end %>
+</div>
+<div>
+<h3>Add comment</h3>
+<%= render :partial => 'comments/form' %>
+</div>
+
+
+
