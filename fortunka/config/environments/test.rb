@@ -36,10 +36,4 @@ Fortunka::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
-<<<<<<< HEAD
-=======
-
-  # Allow pass debug_assets=true as a query parameter to load pages with unpackaged assets
-  config.assets.allow_debugging = true
->>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 end

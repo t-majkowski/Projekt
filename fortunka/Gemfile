@@ -1,19 +1,13 @@
 source 'http://rubygems.org'
 
-<<<<<<< HEAD
 gem 'rails', '3.1.1'
 gem 'execjs'
 gem 'omniauth', '0.3.2'
 gem 'therubyracer'
-=======
-gem 'rails', '3.1.0'
-
->>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-<<<<<<< HEAD
 
 # Łatwiejsze w użyciu formularze
 gem 'simple_form'
@@ -46,31 +40,13 @@ group :assets do
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
-=======
-gem 'simple_form'
-gem 'thin'
-gem 'unicorn'
-gem 'rainbows'
-gem 'sass'
-gem 'coffee-script'
-
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
-  gem 'uglifier'
->>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 end
 
 gem 'jquery-rails'
 
-<<<<<<< HEAD
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
-=======
->>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -80,15 +56,6 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-<<<<<<< HEAD
-=======
-group :development do
-gem 'wirble'
-gem 'hirb'
-gem 'faker'
-gem 'populator'
-end
->>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false

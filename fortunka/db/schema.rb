@@ -11,7 +11,6 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20111108220738) do
 
   create_table "comments", :force => true do |t|
@@ -23,9 +22,6 @@ ActiveRecord::Schema.define(:version => 20111108220738) do
   end
 
   add_index "comments", ["fortune_id"], :name => "index_comments_on_fortune_id"
-=======
-ActiveRecord::Schema.define(:version => 20111106162446) do
->>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 
   create_table "fortunes", :force => true do |t|
     t.text     "quotation"
@@ -34,7 +30,6 @@ ActiveRecord::Schema.define(:version => 20111106162446) do
     t.datetime "updated_at"
   end
 
-<<<<<<< HEAD
   create_table "users", :force => true do |t|
     t.string   "provider"
     t.string   "uid"
@@ -43,6 +38,4 @@ ActiveRecord::Schema.define(:version => 20111106162446) do
     t.datetime "updated_at"
   end
 
-=======
->>>>>>> 8d2aebde7e651eb71d84c9de057e64e9884be77f
 end
